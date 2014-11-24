@@ -14,7 +14,7 @@ public class Main {
         
         BufferedJFrame frame = new BufferedJFrame(0, 0, 300, 300, "Pong");
         GameClock clock = new GameClock();
-        clock.start(30, new BufferedDevice[]{frame});
+        clock.start(60, new BufferedDevice[]{frame});
         
     }
     
